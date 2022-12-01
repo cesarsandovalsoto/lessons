@@ -1,2 +1,1 @@
-a = 'pokemon tienes q atraparlos'
-puts a
+#estamos listos para empezar
