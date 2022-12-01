@@ -1,3 +1,2 @@
-a = 'este comentario es para aprender git'
-
+a = 'pokemon'
 puts a
