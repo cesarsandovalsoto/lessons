@@ -1,3 +1,3 @@
-x = 'este comentario es para aprender git'
+a = 'este comentario es para aprender git'
 
-puts x
+puts a
