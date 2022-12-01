@@ -1,2 +1,2 @@
-a = 'pokemon'
+a = 'pokemon tienes q atraparlos'
 puts a
