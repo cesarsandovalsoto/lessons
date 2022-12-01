@@ -1,3 +1,3 @@
-a = 'este comentario es para aprender git'
+a = 'cartitas de invacion'
 
 puts a
