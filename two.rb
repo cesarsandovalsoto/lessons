@@ -1,2 +1,3 @@
-# frozen_string_literal: true
-puts 'acuña'
+x = 'este comentario es para aprender git'
+
+puts x
