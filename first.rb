@@ -2,9 +2,7 @@ string = 'my first string'
 puts string.length
 
 puts string.count('i')
-if string.length > 0
-  puts 'mayor que 0'
-end
+
 puts string.slice(3, 5)
 
 puts string.upcase
