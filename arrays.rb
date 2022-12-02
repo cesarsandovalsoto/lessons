@@ -26,14 +26,18 @@ pokemons.push('bulbazaor')
 pokemons << 'mr.mine' #same to push
 pokemons.unshift('raichu') #inserst in first place
 pokemons.insert(2, 'odish')
-print pokemons
+puts pokemons
 pokemons.pop #delete last element in the array
 pokemons.shift #delete first element in the array
 
 pokemons.delete_at(1) #delete index element in the array
-print pokemons
+puts pokemons
 pokemons.delete('evee')
-print pokemons
+puts pokemons
 
 pokemon2 = %w[magicarp mug squartle squartle flarion magicarp]
-print pokemon2.uniq #uniq elements
+p pokemon2.uniq #uniq elements
+p pokemon2
+
+pokemon2.uniq! #force deletes all repetitive methods
+p pokemon2 #p is a raw version of puts
