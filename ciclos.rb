@@ -9,3 +9,11 @@ end
 end
 
 100.times{ |i| puts i } #another form
+(1..16).each do |i|
+  puts i
+end
+
+data = {:name => 'cesar', :age=>'41'}
+data.each do |key, value|
+  puts "#{key} : #{value}"
+end
